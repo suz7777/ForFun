@@ -9,12 +9,14 @@ namespace ConsoleApplication1
 {
     public class suznumbers
     {
+        //define data structure
         public static Tuple<int, string>[] combinations = new Tuple<int, string>[] 
         { 
             new Tuple<int, string> (3, "Fizz"), 
             new Tuple<int, string> (5, "Buzz"), 
         };
 
+        //check for Fizz and Buzz
         public static string check_mult(int i)
         {
             string ret = "";
@@ -26,6 +28,7 @@ namespace ConsoleApplication1
             return ret;
         }
 
+        //check and return values with fizz/buzz info
         public static string fizzbuzz(int i)
         {
             string ret = check_mult(i);

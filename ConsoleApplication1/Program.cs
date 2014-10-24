@@ -16,6 +16,7 @@ namespace ConsoleApplication1
         
         static void Main(string[] args)
         {
+            //initialize values - todo: make these command line options
             int start = 1;
             int end = 50;
             for (int i = start; i < end; i++)
